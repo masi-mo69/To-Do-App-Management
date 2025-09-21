@@ -33,14 +33,14 @@ cd todo-app
 Install dependencies:
 
 npm install
-# or
+or
 yarn install
-
+#
 
 Start the development server:
 
 npm run dev
-# or
+or
 yarn dev
 #
 
@@ -59,7 +59,6 @@ UUID
  for unique task IDs
 
 #
- 📂 Project Structure
 
 
 💻 Usage
