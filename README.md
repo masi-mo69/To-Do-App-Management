@@ -34,15 +34,21 @@ cd todo-app
 Install dependencies:
 
 npm install
+
 or
+
 yarn install
+
 #
 
 Start the development server:
 
 npm run dev
+
 or
+
 yarn dev
+
 #
 
 🛠️ Technologies Used
