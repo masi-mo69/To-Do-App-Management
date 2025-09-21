@@ -30,6 +30,7 @@ Clone the repository:
 git clone https://github.com/masi-mo69/To-Do-App-Management.git
 
 cd todo-app
+#
 
 Install dependencies:
 
@@ -79,6 +80,7 @@ Click Edit to modify a task (opens a modal popup).
 Click the checkbox to mark a task as complete/incomplete.
 
 Click Delete to remove a task.
+#
 
 📱 Responsive Design
 
