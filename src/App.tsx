@@ -12,7 +12,7 @@ function App() {
       className="bg-cover bg-center bg-fixed m-0 p-0"
       style={{ backgroundImage: "url('/images/bg.png')" }}
     >
-      <div className="min-h-[80vh] md:min-h-screen bg-gray-500/50 flex items-center justify-center md:justify-start p-4">
+      <div className="min-h-[80vh] md:min-h-screen bg-gray-500/50 flex items-center justify-center md:justify-start md:p-10">
         <div className="bg-white shadow-lg rounded-xl p-6 w-full max-w-lg">
           <h1 className="text-xl md:text-2xl font-bold mb-4 text-center">
             📝 To-Do App List Manager
