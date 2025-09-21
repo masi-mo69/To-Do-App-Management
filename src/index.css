@@ -1,0 +1,52 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 700;
+  src: url("./assets/fonts/IRANYekan/eot/iranyekanwebbold(fanum).eot");
+  src: url("./assets/fonts/IRANYekan/eot/iranyekanwebbold(fanum).eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/IRANYekan/woff2/iranyekanwebbold(fanum).woff2")
+      format("woff2"),
+    url("./assets/fonts/IRANYekan/woff/iranyekanwebbold(fanum).woff")
+      format("woff"),
+    url("./assets/fonts/IRANYekan/ttf/iranyekanwebbold(fanum).ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 300;
+  src: url("./asse./assets/fonts/IRANYekan/eot/iranyekanweblight(fanum).eot");
+  src: url("./asse./assets/fonts/IRANYekan/eot/iranyekanweblight(fanum).eot?#iefix")
+      format("embedded-opentype"),
+    url("./asse./assets/fonts/IRANYekan/woff2/iranyekanweblight(fanum).woff2")
+      format("woff2"),
+    url("./asse./assets/fonts/IRANYekan/woff/iranyekanweblight(fanum).woff")
+      format("woff"),
+    url("./asse./assets/fonts/IRANYekan/ttf/iranyekanweblight(fanum).ttf")
+      format("truetype");
+}
+@font-face {
+  font-family: iranyekan;
+  font-style: normal;
+  font-weight: 400;
+  src: url("./assets/fonts/IRANYekan/eot/iranyekanwebregular(fanum).eot");
+  src: url("./assets/fonts/IRANYekan/eot/iranyekanwebregular(fanum).eot?#iefix")
+      format("embedded-opentype"),
+    url("./assets/fonts/IRANYekan/woff2/iranyekanwebregular(fanum).woff2")
+      format("woff2"),
+    //url('./assets/fonts/IRANYekan/woff/iranyekanwebregular(fanum).woff') format('woff'),
+    //url('./assets/fonts/IRANYekan/ttf/iranyekanwebregular(fanum).ttf') format('truetype')
+;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  background: url("./assets/images/bg.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family: iranyekan;
+}
