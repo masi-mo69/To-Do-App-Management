@@ -12,6 +12,7 @@ interface TaskStore {
 export const useTasks = create<TaskStore>((set) => ({
   tasks: JSON.parse(localStorage.getItem("tasks") || "[]"),
 
+  // Add a new task and save to localStorage
   addTask: (task) =>
     set((state) => {
       const updated = [...state.tasks, task];
@@ -19,6 +20,7 @@ export const useTasks = create<TaskStore>((set) => ({
       return { tasks: updated };
     }),
 
+  // Edit task
   updateTask: (updatedTask) =>
     set((state) => {
       const updated = state.tasks.map((t) =>
@@ -28,6 +30,7 @@ export const useTasks = create<TaskStore>((set) => ({
       return { tasks: updated };
     }),
 
+  // Toggle completion status of a task
   toggleTask: (id) =>
     set((state) => {
       const updated = state.tasks.map((t) =>
@@ -37,6 +40,7 @@ export const useTasks = create<TaskStore>((set) => ({
       return { tasks: updated };
     }),
 
+  // Delete a task and update localStorage
   deleteTask: (id) =>
     set((state) => {
       const updated = state.tasks.filter((t) => t.id !== id);

@@ -12,6 +12,7 @@ export default function TaskList({ onEdit }: TaskListProps) {
 
   return (
     <div>
+      {/*Group tasks by category */}
       {categories.map((cat) => (
         <div key={cat} className="mb-4">
           <h2 className="font-bold text-lg mb-2">
