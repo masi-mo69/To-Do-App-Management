@@ -16,7 +16,17 @@ Responsive design for mobile and desktop
 
 Persistent tasks using localStorage
 
-Edit tasks via modal popup
+Delete tasks via modal popup
 
 Error handling for empty task input
+
+🚀 Installation
+
+Clone the repository:
+
+git clone https://github.com/YOUR_USERNAME/todo-app.git
+cd todo-app
+
+
+
 
