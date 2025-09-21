@@ -51,7 +51,7 @@ export default function TaskItem({ task, onEdit }: TaskItemProps) {
 
       {/*Modal to confirm deletion*/}
       {isConfirmOpen && (
-        <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50">
+        <div className="fixed inset-0 bg-gray-500/80 bg-opacity-50 flex items-center justify-center z-50">
           <div className="bg-white p-6 rounded-xl w-full max-w-sm">
             <h2 className="text-lg font-bold mb-4 text-center">
               Confirm Delete
