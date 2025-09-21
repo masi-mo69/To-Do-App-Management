@@ -28,6 +28,7 @@ Error handling for empty task input
 Clone the repository:
 
 git clone https://github.com/masi-mo69/To-Do-App-Management.git
+
 cd todo-app
 
 Install dependencies:
