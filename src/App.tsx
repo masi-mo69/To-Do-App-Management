@@ -8,10 +8,7 @@ function App() {
   const [editingTask, setEditingTask] = useState<Task | null>(null);
 
   return (
-    <div
-      style={{ backgroundImage: 'url("/images/bg.png")' }}
-      className="min-h-[80vh] md:min-h-screen bg-gray-500/50 flex items-center justify-center md:justify-start md:p-4"
-    >
+    <div className="min-h-[80vh] md:min-h-screen bg-gray-500/50 flex items-center justify-center md:justify-start md:p-4">
       <div className="bg-white shadow-lg rounded-xl p-6 w-full max-w-lg">
         <h1 className="text-xl md:text-2xl font-bold mb-4 text-center">
           📝 To-Do App List Manager
