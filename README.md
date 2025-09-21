@@ -21,7 +21,7 @@ Delete tasks via modal popup
 
 Error handling for empty task input
 
-
+#
 
 🚀 Installation
 
@@ -42,7 +42,7 @@ Start the development server:
 npm run dev
 # or
 yarn dev
-
+#
 
 🛠️ Technologies Used
 
@@ -58,7 +58,7 @@ Zustand
 UUID
  for unique task IDs
 
-
+#
  📂 Project Structure
 
 
