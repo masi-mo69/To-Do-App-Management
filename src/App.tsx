@@ -9,7 +9,7 @@ function App() {
 
   return (
     <div
-      className="bg-cover bg-center"
+      className="bg-cover bg-center bg-fixed m-0 p-0"
       style={{ backgroundImage: "url('/images/bg.png')" }}
     >
       <div className="min-h-[80vh] md:min-h-screen bg-gray-500/50 flex items-center justify-center md:justify-start md:p-4">
