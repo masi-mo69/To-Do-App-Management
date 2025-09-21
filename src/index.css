@@ -36,10 +36,7 @@
   src: url("./assets/fonts/IRANYekan/eot/iranyekanwebregular(fanum).eot?#iefix")
       format("embedded-opentype"),
     url("./assets/fonts/IRANYekan/woff2/iranyekanwebregular(fanum).woff2")
-      format("woff2"),
-    //url('./assets/fonts/IRANYekan/woff/iranyekanwebregular(fanum).woff') format('woff'),
-    //url('./assets/fonts/IRANYekan/ttf/iranyekanwebregular(fanum).ttf') format('truetype')
-;
+      format("woff2");
 }
 
 body {
