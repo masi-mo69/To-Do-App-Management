@@ -2,7 +2,7 @@
 
 A simple and responsive To-Do List web application built with React, TypeScript, Zustand, and Tailwind CSS.
 Manage your tasks easily with categories, add/edit/delete tasks, and persist them in localStorage.
-
+#
 
 
 🌟 Features
@@ -60,17 +60,7 @@ UUID
 
 
  📂 Project Structure
-src/
-├─ components/
-│  ├─ TaskForm.tsx
-│  ├─ TaskList.tsx
-│  └─ TaskItem.tsx
-├─ store/
-│  └─ useTasks.ts
-├─ types/
-│  └─ task.ts
-├─ App.tsx
-└─ index.tsx
+
 
 💻 Usage
 
